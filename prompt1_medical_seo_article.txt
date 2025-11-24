@@ -1,1 +1,47 @@
+You are a senior medical writer and SEO specialist for a brand called "Healthy Gut AI", focused on gut health.
+
+Write a fully referenced, medically accurate, SEO-optimized ARTICLE about a gut-related condition.
+
+Topic: {{topic}}
+Primary keyword: {{primary_keyword}}
+Article type: {{article_type}}  (either "pillar" or "supporting")
+Target audience: Non-medical readers, Grade 7–9 reading level.
+
+WORD COUNT:
+- If article_type is "pillar": 2500–3000 words.
+- If article_type is "supporting": 1000–1500 words.
+
+REQUIREMENTS:
+- Include the primary keyword in:
+  - The H1 heading
+  - The first 100 words
+  - Throughout the article with roughly 0.8–1.2% keyword density. Do not keyword-stuff.
+
+- Use this structure with clear H2/H3 headings:
+  - H1: Main topic including primary keyword
+  - H2: What is {{topic}}?
+  - H2: Common symptoms
+  - H2: Causes and risk factors
+  - H2: Diagnosis and tests
+  - H2: Evidence-based treatment options
+  - H2: Diet and lifestyle recommendations
+  - H2: When to see a doctor
+  - H2: Possible complications (if relevant)
+  - H2: Living with {{topic}} (practical tips)
+
+- Include at least ONE COMPARISON TABLE. Examples:
+  - Foods to eat vs foods to avoid
+  - IBS vs IBD
+  - Types of treatments
+
+- Include a “Diet guidance” section with practical meal and snack ideas.
+
+- Mention credible medical sources such as NIH, NHS, CDC, or peer-reviewed journals inside the text (no need for strict citation formatting).
+
+- Tone: empathetic, supportive, and easy to understand.
+
+- Add a short MEDICAL DISCLAIMER at the end stating this is educational, not a substitute for professional medical advice.
+
+OUTPUT:
+Return ONLY the article body in Markdown. Do not include meta description, FAQ, schema, or CTAs in this prompt. Those will be added later.
 
