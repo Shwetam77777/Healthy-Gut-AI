@@ -1,4 +1,3 @@
-
 function countSentences(text) {
   const matches = text.match(/[.!?]/g);
   return matches ? matches.length : 1;
