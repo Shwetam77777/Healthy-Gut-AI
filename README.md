@@ -194,3 +194,48 @@ This repository is a clean, professional example of an AI-powered content genera
 🙌 Thank You
 
 If you’d like to explore the workflow or ask questions, feel free!
+# 🥗 Healthy-Gut-AI: Medical Content Generation System
+
+![Status](https://img.shields.io/badge/Status-Upgrading_to_v2.0-yellow?style=for-the-badge)
+![n8n](https://img.shields.io/badge/n8n-Workflow_Automation-FF6D5A?style=for-the-badge&logo=n8n&logoColor=white)
+![AI](https://img.shields.io/badge/GenAI-LLM_Engineering-blue?style=for-the-badge)
+
+> **⚠️ Developer Note:** The automation workflows are currently being migrated to a new n8n structure for better API stability. The code logic is available for review, but the live pipeline is under maintenance.
+
+### 🏥 Project Overview
+**Healthy-Gut-AI** is an automated pipeline designed to generate medically accurate, SEO-optimized, and readability-checked content. It solves the problem of creating high-quality medical articles at scale by combining **Large Language Models (LLMs)** with **Rigorous Verification Metrics**.
+
+### 🚀 Key Features
+* **🤖 LLM Prompt Engineering:** Advanced prompts designed to hallucination-proof medical advice.
+* **⚙️ n8n Automation:** End-to-end workflow management from topic selection to draft generation.
+* **🔍 SEO Optimization:** Auto-insertion of keywords, meta-tags, and Schema markup.
+* **📊 Quality Metrics:** Custom scripts to calculate Readability Scores and Keyword Density before publishing.
+
+### 📂 Repository Structure
+This project is modular to ensure scalability:
+* `prompts/` - Contains engineered prompts for Medical Accuracy & Geo-Targeting.
+* `metrics/` - JavaScript tools for `keyword_density.js` and `readability_check.js`.
+* `samples/` - Example output articles (Pillar Content & Supporting Blogs).
+* `workflows/` - (Currently Updating) n8n JSON workflow files.
+
+### 🧠 Logic & Engineering
+#### 1. Medical SEO Generator (Prompt 1)
+Designed to create strict "Pillar Content" (2500+ words) that includes:
+* Comparison Tables & Diet Plans.
+* Medical Disclaimers & Citations.
+* Structured H1, H2, H3 hierarchy.
+
+#### 2. Geo-Optimization Engine (Prompt 2)
+Enhances content for local search intent:
+* Adds Location-based keywords.
+* Generates FAQ Schema (JSON-LD).
+* Optimizes Meta Descriptions for higher CTR.
+
+### 🛠 Tech Stack
+* **Core:** JavaScript, n8n (Workflow Automation)
+* **AI Models:** GPT-4 / Claude (via API)
+* **Data:** Google Sheets (Input Source)
+* **Version Control:** Git & GitHub
+
+---
+*Developed by Shweta Mishra | Focusing on AI Agentic Workflows.*
