@@ -30,6 +30,24 @@ Healthy-Gut-AI automatically generates medically accurate, SEO-optimized, and re
 
 This showcases real workflow automation + AI engineering skills.
 
+💻 **Quick Start (Standalone):**
+
+Run the example script to see metrics in action:
+
+```bash
+node example_standalone.js
+```
+
+Or use the metrics scripts directly:
+
+```bash
+# Keyword density
+node metrics/keyword_density.js "<article text>" "<keyword>"
+
+# Readability check  
+node metrics/readability_check.js "<article text>"
+```
+
 📁 Repository Structure
 Healthy-Gut-AI/
 │
@@ -40,6 +58,8 @@ Healthy-Gut-AI/
 ├── metrics/
 │   ├── keyword_density.js
 │   └── readability_check.js
+│
+├── example_standalone.js
 │
 ├── samples/
 │   ├── article1_pillar.md
