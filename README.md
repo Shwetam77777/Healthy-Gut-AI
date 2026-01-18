@@ -100,6 +100,12 @@ Keyword density (%)
 
 Ensures SEO quality.
 
+✅ **Supports both n8n workflows and standalone Node.js execution**
+
+**Usage:**
+- **n8n:** Automatically uses `$json.optimized_article_markdown` and `$json.primary_keyword`
+- **Standalone:** `node metrics/keyword_density.js "<article>" "<keyword>"`
+
 📌 readability_check.js
 
 Calculates:
@@ -111,6 +117,12 @@ Sentence complexity
 Syllables per word
 
 Ensures the article is readable for a general audience.
+
+✅ **Supports both n8n workflows and standalone Node.js execution**
+
+**Usage:**
+- **n8n:** Automatically uses `$json.optimized_article_markdown`
+- **Standalone:** `node metrics/readability_check.js "<article>"`
 
 ⚙️ Workflow Overview (n8n)
 1️⃣ Google Sheet Input
@@ -196,11 +208,11 @@ This repository is a clean, professional example of an AI-powered content genera
 If you’d like to explore the workflow or ask questions, feel free!
 # 🥗 Healthy-Gut-AI: Medical Content Generation System
 
-![Status](https://img.shields.io/badge/Status-Upgrading_to_v2.0-yellow?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
 ![n8n](https://img.shields.io/badge/n8n-Workflow_Automation-FF6D5A?style=for-the-badge&logo=n8n&logoColor=white)
 ![AI](https://img.shields.io/badge/GenAI-LLM_Engineering-blue?style=for-the-badge)
 
-> **⚠️ Developer Note:** The automation workflows are currently being migrated to a new n8n structure for better API stability. The code logic is available for review, but the live pipeline is under maintenance.
+> **✅ Latest Update:** Metrics scripts (`keyword_density.js` and `readability_check.js`) now support both n8n workflows and standalone Node.js execution. Fixed ReferenceError when running scripts outside n8n context.
 
 ### 🏥 Project Overview
 **Healthy-Gut-AI** is an automated pipeline designed to generate medically accurate, SEO-optimized, and readability-checked content. It solves the problem of creating high-quality medical articles at scale by combining **Large Language Models (LLMs)** with **Rigorous Verification Metrics**.
@@ -214,7 +226,7 @@ If you’d like to explore the workflow or ask questions, feel free!
 ### 📂 Repository Structure
 This project is modular to ensure scalability:
 * `prompts/` - Contains engineered prompts for Medical Accuracy & Geo-Targeting.
-* `metrics/` - JavaScript tools for `keyword_density.js` and `readability_check.js`.
+* `metrics/` - JavaScript tools for `keyword_density.js` and `readability_check.js`. Works in both n8n and standalone modes.
 * `samples/` - Example output articles (Pillar Content & Supporting Blogs).
 * `workflows/` - (Currently Updating) n8n JSON workflow files.
 
