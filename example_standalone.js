@@ -36,7 +36,8 @@ Taking care of your gut health should be a top priority. Simple lifestyle change
 can significantly improve your digestive health and overall well-being.
 `;
 
-const primaryKeyword = 'gut health';
+// Using single-word keyword for better matching (multi-word phrases need custom logic)
+const primaryKeyword = 'health';
 
 console.log('========================================');
 console.log('   Metrics Analysis Example');
