@@ -1,7 +1,7 @@
 🎯 Healthy-Gut-AI
 AI-Powered Medical Content Generation System
 
-This repository contains my solution for Problem 1 of the Software Engineer Assignment.
+This repository contains my solution for Problem.
 It demonstrates my ability to work with:
 
 🔹 LLM prompt engineering
